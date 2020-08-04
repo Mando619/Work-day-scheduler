@@ -23,10 +23,10 @@ $(document).ready(function () {
         localStorage.setItem(textInput, hours);
        // console.log(textInput, hours);
             console.log(textInput, hours);
-     // creating a localStorage getItem for all 
-
+     // creating a localStorage getItem for all
     });
-      
+    
+    $('div[id^=9')
 // used parsInt() to return an integer of NaN, since currentTime is a string 
     // changed var to military time and use parseInt()
     var dayHours = ["9", "10", "11", "12", "13", "14", "15", "16", "17"];

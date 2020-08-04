@@ -7,7 +7,7 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 
 [Password-generator](https://mando619.github.io/Password-generator/).
 
-![image]!(https://user-images.githubusercontent.com/65925169/89350700-5e476680-d665-11ea-8f42-4cdad58dac57.png)
+![image](https://user-images.githubusercontent.com/65925169/89350700-5e476680-d665-11ea-8f42-4cdad58dac57.png)
 
 
 ## 
