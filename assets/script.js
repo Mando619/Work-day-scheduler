@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 
 
-// used parsInt() to return an integer of NaN, since currentTime is a string 
+    // used parsInt() to return an integer of NaN, since currentTime is a string 
     // changed var to military time and use parseInt()
     var dayHours = ["9", "10", "11", "12", "13", "14", "15", "16", "17"];
     newClass();
@@ -35,39 +35,50 @@ $(document).ready(function () {
 
             else if (parseInt(dayHours[i]) == currentTime) {
                 newHours.addClass("present");
-
+                console.log(newClass);
             }
         }
     }
+
+
+
+
+
+
+
+
+
     // creating function for button to store in local storage
     $(".saveBtn").on("click", function () {
+        var textInput = $("textArea").val().trim();
+        //var textInput = $(this).siblings(".description").val();
         var hours = $(this).parent().attr("id");
-        var textInput = $(this).siblings(".description").val();
-        
+
+
         localStorage.setItem(textInput, hours)
-        
-    }); 
-    
-       // console.log(textInput, hours);            
-        // creating a localStorage getItem for all
 
-        // creating a localStorage 
-   
-
-        var myLocalStorageArr = [];
-
-        var getHours = $(".hour").val();
-        $.each(getHours, function(index, element) {
-            myLocalStorageArr.push(element);
-
-        
-        
-        });
-        
-        localStorage.getItem("hours", myLocalStorageArr);
-        
+    });
 
 
-    
+
+
+    //var myLocalStorageArr = [];
+
+    //var getHours = $(".hour").val();
+   // $.each(getHours, function (index, element) {
+      //  myLocalStorageArr.push(element);
+
+
+
+   // });
+
+   // localStorage.getItem("hours", myLocalStorageArr);
+
+
+
+
+
+
+
 
 });
