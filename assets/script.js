@@ -64,8 +64,8 @@ $(document).ready(function () {
         
         });
         
-        localStorage.getItem('hours', myLocalStorageArr);
-                
+        localStorage.getItem("hours", myLocalStorageArr);
+        
 
 
     

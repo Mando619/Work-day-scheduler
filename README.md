@@ -5,7 +5,7 @@ Create a simple calendar application that allows the user to save events for eac
 
 You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
-[Event-Calender-link](https://mando619.github.io/Password-generator/).
+[Event-Calender-link](https://mando619.github.io/Work-day-scheduler/).
 
 ![image](https://user-images.githubusercontent.com/65925169/89350700-5e476680-d665-11ea-8f42-4cdad58dac57.png)
 
