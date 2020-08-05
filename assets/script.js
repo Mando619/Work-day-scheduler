@@ -62,17 +62,17 @@ $(document).ready(function () {
 
 
 
-    //var myLocalStorageArr = [];
+    var myLocalStorageArr = [];
 
-    //var getHours = $(".hour").val();
-   // $.each(getHours, function (index, element) {
-      //  myLocalStorageArr.push(element);
+    var getHours = $(".hour").val();
+    $.each(getHours, function (index, element) {
+        myLocalStorageArr.push(element);
 
 
 
-   // });
+    });
 
-   // localStorage.getItem("hours", myLocalStorageArr);
+    localStorage.getItem("hours", myLocalStorageArr);
 
 
 
