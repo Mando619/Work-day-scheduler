@@ -10,4 +10,23 @@ You'll need to use the [Moment.js](https://momentjs.com/) library to work with d
 ![image](https://user-images.githubusercontent.com/65925169/89350700-5e476680-d665-11ea-8f42-4cdad58dac57.png)
 
 
-## 
+## Description
+
+This application is a simple planner to coordinate events by certain time.
+The calendar starts from 9Am, and ends at 5pm. Depending on the time of day, the schedule input feilds update their color indicating to the user wether items are in the past, present, or future. Clicking on the save button stores users input inot local stroage. 
+
+
+
+## Technology Used
+
+JQuery
+momentsjs
+JavaScript
+Bootstrap
+HTML
+CSS
+
+
+## License
+
+GNU General Public License
